@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAP's Pizza & Tap House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-stone-50 text-stone-800">
+    <main>
+      <section
+        class="hero min-h-screen flex items-center justify-center bg-[url('/images/pizza-hero.jpg')] bg-cover bg-center relative"
+      >
+        <div class="absolute inset-0 bg-black/50"></div>
+        <div class="relative text-center text-white space-y-4">
+          <h2 class="text-6xl font-bold">Craft Beer & Pizza</h2>
+          <h3 class="text-3xl font-light">Authentic</h3>
+          <p class="text-xl">Artisanal Pizza + Craft Beer + Good Times</p>
+        </div>
+      </section>
+
+      <section id="locations" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+          <h2 class="text-4xl font-bold text-center mb-12">Visit Us</h2>
+          <div class="max-w-2xl mx-auto bg-stone-100 rounded-lg p-8">
+            <h3 class="text-2xl font-semibold mb-4">Downtown Location</h3>
+            <div class="flex gap-4">
+              <a
+                href="#directions"
+                class="px-6 py-2 bg-red-600 text-white rounded hover:bg-red-700 transition-colors"
+                >Get Directions</a
+              >
+              <a
+                href="#menu"
+                class="px-6 py-2 border border-red-600 text-red-600 rounded hover:bg-red-600 hover:text-white transition-colors"
+                >View Menu</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-20 bg-stone-100">
+        <div class="container mx-auto px-4">
+          <div class="text-center mb-12">
+            <h2 class="text-2xl text-[#9a0000] mb-2">Our Story</h2>
+            <h1 class="text-4xl font-bold">A Family Legacy</h1>
+          </div>
+
+          <div class="max-w-3xl mx-auto space-y-8">
+            <!-- Family Introduction -->
+            <div class="prose lg:prose-lg mx-auto">
+              <p class="text-lg leading-relaxed">
+                Lifelong California residents, Troy and Cheri Pryor, along with their children Cody, Nathan and Lindsay, 
+                moved to the Sacramento area in the fall of 1997. They have enjoyed calling Rosemont their home since 2001.
+              </p>
+            </div>
+
+            <!-- Tribute to Cody -->
+            <div class="bg-white rounded-lg p-8 shadow-sm">
+              <h3 class="text-2xl font-semibold text-[#9a0000] mb-4">The Heart Behind CAP's</h3>
+              <p class="text-lg leading-relaxed mb-6">
+                CAP's Pizza and Tap House is a tribute to Cody, who passed away on July 3, 2016. Every aspect of the 
+                restaurant was designed with Cody in mind, from the name (CAP - Cody Allen Pryor) to the rustic, casual 
+                décor and the fun environment. Cody was most happy when he was hanging out with friends and family.
+              </p>
+              <p class="text-lg leading-relaxed">
+                We know that we have built a place he would have been proud and excited about. We are equally excited 
+                to be in the Rosemont Community and look forward to serving you!
+              </p>
+            </div>
+
+            <!-- Community Focus -->
+            <div class="text-center mt-12">
+              <p class="text-xl font-light italic text-[#9a0000]">
+                "Family-owned, community-focused, serving memories one slice at a time."
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="visit-us-section"></div>
+    </main>
+
+    <footer class="bg-stone-900 text-white py-12">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center">
+          <div class="space-x-6">
+            <a href="#apply" class="hover:text-[#9a0000] transition-colors"
+              >Careers</a
+            >
+            <a href="#contact" class="hover:text-[#9a0000] transition-colors"
+              >Contact</a
+            >
+          </div>
+          <div class="space-x-6">
+            <a href="#instagram" class="hover:text-[#9a0000] transition-colors"
+              >Instagram</a
+            >
+            <a href="#facebook" class="hover:text-[#9a0000] transition-colors"
+              >Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
