@@ -1,0 +1,13 @@
+# Robots.txt for capspizza.com
+
+# Allow all robots full access
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://capspizza.com/sitemap.xml
+
+# Prevent caching of dynamic content
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/ 
