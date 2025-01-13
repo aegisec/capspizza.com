@@ -26,7 +26,7 @@ input:focus, textarea:focus {
 
 /* Adjust main content padding to account for header height */
 main {
-    padding-top: 5rem; /* Adjust this value based on your header height + logo overflow */
+    /* padding-top: 5rem; Adjust this value based on your header height + logo overflow */
 }
 
 /* Ensure logo image maintains aspect ratio */
@@ -42,7 +42,7 @@ main {
 /* Adjust header for mobile */
 @media (max-width: 768px) {
     main {
-        padding-top: 6rem;
+        /* padding-top: 6rem; */
     }
     
     .logo img {
@@ -66,4 +66,29 @@ main {
 
 .border-brand-red {
     border-color: #9a0000;
+}
+
+/* Trivia page specific styles */
+.trivia-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.details-box {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border-left: 4px solid #9a0000;
+}
+
+.trivia-section {
+    animation: fadeIn 1s ease-in;
 }
